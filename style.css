@@ -1,6 +1,64 @@
-.cabeçalho{
-    background-color: #d88ad0
+*{
+    margin: 0;
+    padding: 0;
 }
-.cabeçalho-título {
-    color: white
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.cabecalho {
+    background-color: #d7dee9;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.cabecalho-imagem{
+    width: 20%;
+}
+
+.cabecalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 16px;
+}
+
+.colégio-imagem{
+    width: 25%;
+}
+
+.colégio{
+    background-image: linear-gradient(#c1cbdb,#b9d5db);
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.colégio-div-conteudo{
+    width: 35%;
+}
+
+
+.colégio-titulo{
+    padding: 24px 0;
+}
+
+.funcionários{
+    padding: 24px 0;
+}
+.funcionários-imagem{
+    width: 120px;
+}
+
+.funcionários-icone{
+    width: 24px;
+    padding: 4px 8px;
+}
+
+.funcionários-div{
+    text-align: center;
+    padding: 16px 0;
 }
